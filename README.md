@@ -5,6 +5,7 @@ The project is an implementation of User & JobOffer programming task. During imp
     - I did not like ActiveRecord pattern and I used respositories
     - Tests are black-box like and are more integration ones than units
     - I used Lombok at few places
+    - DB is being recreated every time application starts
 - User
     - login must be unique
     - id and creation date are filled automatically during creation of a user
