@@ -1,0 +1,14 @@
+quarkus:
+  datasource:
+    db-kind: h2
+  hibernate-orm:
+    database:
+      generation: drop-and-create
+  http:
+    test-port: 8083
+
+"%dev":
+  quarkus:
+    hibernate-orm:
+      log:
+        sql: true
