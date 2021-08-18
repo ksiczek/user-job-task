@@ -18,6 +18,7 @@ The project is an implementation of User & JobOffer programming task. During imp
 ## TODOs
 - implement second endpoint with job offers
 - implement user update
+- implement sorting/filtering/pagination
 - conside using test containers
     - or find a better way to reset H2 database
 - consider switching to a real DB instead of H2
